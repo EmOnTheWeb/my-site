@@ -1,0 +1,143 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+		BASE RESET
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	line-height: 1.15; // Correct the line height in all browsers.
+	-ms-text-size-adjust: 100%; // Prevent adjustments of font size after orientation changes in IE on Windows Phone 
+  -webkit-text-size-adjust: 100%; // Same as above only for iOS.
+  -webkit-tap-highlight-color: rgba(0,0,0,0); // Removes default highlight color iOS links
+}
+
+body {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  font-size: 100%;
+	font-weight: 300;
+  margin:0; // Removes default margins in browsers
+  -webkit-font-smoothing: antialiased; // helps make fonts closer to designed versions
+  -moz-osx-font-smoothing: grayscale; // helps make fonts closer to designed versions
+}
+
+hr {
+	box-sizing: content-box;
+	display:block;
+	overflow:visible;
+	border:none;
+}
+
+a {
+	-webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
+  text-decoration:none;
+}
+
+strong {
+  font-weight:bold;
+}
+
+abbr[title] {
+  border-bottom: none; // Remove the bottom border in Chrome 57- and Firefox 39-.
+  text-decoration: underline; // Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+  text-decoration: underline dotted; // same as above
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace; // Correct the inheritance and scaling of font size in all browsers.
+  font-size: 1em; // Correct the odd `em` font sizing in all browsers.
+}
+
+dfn {
+  font-style: italic; // Add the correct font style in Android 4.3-
+}
+
+small {
+  font-size: 80%; // Add the correct font size in all browsers.
+}
+
+sub, sup { 
+  // Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio:not([controls]) {
+  // Add the correct display in iOS 4-7
+  display: none;
+  height: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden; // Hide the overflow in IE.
+}
+
+input[type="search"] {
+  box-sizing:border-box; // override for wordpress search boxes
+  -webkit-appearance: textfield; 
+  outline-offset: -2px; 
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+select {
+  text-transform: none;
+}
+
+select:-moz-focusring { // fix for Firefox selectbox dotted line
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline; // correct vertical alignment in Chrome, Firefox, and Opera
+}
+
+textarea {
+  overflow: auto; // Remove the default vertical scrollbar in IE
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; 
+  font: inherit; 
+}
+
+fieldset {
+  padding:0;
+  margin:0;
+  border:none;
+}
