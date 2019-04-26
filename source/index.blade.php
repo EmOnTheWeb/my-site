@@ -3,7 +3,7 @@
 @section('body')
 	@include('_partials.header')
 
-	@yield('content')
+	@include('_partials.top-section')
 
 	@include('_partials.footer')
 

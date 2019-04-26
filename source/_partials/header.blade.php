@@ -1,7 +1,7 @@
 <header>
 	<nav>
-		<a href="">About</a>
-		<a href="">Portfolio</a>
+		<a href="">About</a><span>|</span>
+		<a href="">Portfolio</a><span>|</span>
 		<a href="">Contact</a>
 	</nav>
 </header>
