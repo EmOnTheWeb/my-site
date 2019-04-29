@@ -211,7 +211,7 @@ nav span {
   -webkit-transform: translate(-50%, -49%);
           transform: translate(-50%, -49%);
   width: calc(100% - 20px);
-  max-width: 750px;
+  max-width: 650px;
 }
 @media (min-width: 768px) {
   .background-container .laptop {
