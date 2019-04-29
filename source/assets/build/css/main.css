@@ -203,3 +203,13 @@ nav span {
   left: 0;
   right: 0;
 }
+.background-container .laptop {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 800px;
+}
