@@ -6,6 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
+/** Font Sizes */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -176,6 +177,25 @@ body p {
   line-height: 27px;
 }
 
+.heading {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+
+.orange {
+  background-color: #d55f30;
+}
+
+.yellow {
+  background-color: #d29f22;
+}
+
+.light-gray {
+  background-color: #d8d8d8;
+}
+
 .button {
   width: 164px;
   height: 55px;
@@ -185,11 +205,7 @@ body p {
   text-align: center;
   padding: 17px;
   margin: 0 auto;
-  margin-top: 40px;
-}
-
-.orange {
-  background-color: #d55f30;
+  margin-top: 50px;
 }
 
 .show-desktop {
@@ -255,7 +271,7 @@ nav span {
   width: calc(100% - 20px);
 }
 .background-container .laptop-content p {
-  padding-left: 5%;
+  padding-left: 6%;
 }
 @media (min-width: 768px) {
   .background-container .laptop {
@@ -267,5 +283,29 @@ nav span {
   .background-container .laptop-content p {
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+.container .container-content {
+  margin: 0 auto 30px;
+}
+.container.img-text {
+  height: 528px;
+}
+.container.img-text .container-img {
+  flex: 66.6%;
+  background-image: url("../../images/port_1280.jpg");
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+  .container .container-content {
+    width: 80%;
   }
 }

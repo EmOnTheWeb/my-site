@@ -5,7 +5,7 @@ nav {
 	position:fixed;
 	z-index:2;
 	a {
-		font-size:rem(16);
+		font-size:rem($base);
 	}
 	span {
 		margin-left:24px;

@@ -1,0 +1,20 @@
+.container {
+	width:100%;
+	padding:20px;
+	display:flex;
+	.container-content {
+		
+		margin:0 auto 30px;
+	}
+	&.img-text {
+		.container-img {
+			flex:66.6%;
+			background-image:url('../../images/port_1280.jpg');
+		}
+		height:528px;
+	}
+	@include media(tablet) {
+		padding:30px;
+		.container-content { width:80%; }
+	}
+}

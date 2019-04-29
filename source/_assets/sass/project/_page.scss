@@ -6,6 +6,26 @@ body, a {
 body p {
 	line-height:27px;
 }
+
+.heading {
+	font-size:32px;
+	text-transform:uppercase;
+	margin:40px auto 20px auto;
+	text-align:center;
+}
+
+.orange {
+	background-color:$brand-orange;
+}
+
+.yellow {
+	background-color:$brand-yellow;
+}
+
+.light-gray {
+	background-color:$background-gray;
+}
+
 .button {
 	width:164px;
 	height:55px;
@@ -15,11 +35,9 @@ body p {
 	text-align:center;
 	padding: 17px;
 	margin:0 auto;
-	margin-top:40px;
+	margin-top:50px;
 }
-.orange {
-	background-color:$brand-orange;
-}
+
 .show-desktop { display:none; }
 @include media(tablet) {
 	.show-desktop { display:block; }

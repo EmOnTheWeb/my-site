@@ -7,9 +7,8 @@
 	<img class="laptop" src="../assets/images/laptop.png" alt="laptop image">
 	<div class="laptop-content">
 		<p>Hello my name is Emilie<br>
-		<span class="show-desktop">I am a freelance web developer / designer<br>
-		based in New Orleans<br><br></span>
-		I make websites and apps.</p>
+		<span class="show-desktop">A web developer / designer<br></span>
+		Who makes websites and apps.</p>
 		<a class="button orange">About
 		</a>
 	</div>
