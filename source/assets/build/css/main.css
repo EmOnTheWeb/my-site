@@ -208,8 +208,13 @@ nav span {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 90%;
-  max-width: 800px;
+  -webkit-transform: translate(-50%, -49%);
+          transform: translate(-50%, -49%);
+  width: calc(100% - 20px);
+  max-width: 750px;
+}
+@media (min-width: 768px) {
+  .background-container .laptop {
+    width: 65%;
+  }
 }
