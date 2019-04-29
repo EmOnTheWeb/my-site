@@ -5,8 +5,8 @@
 		max-height:100vh;	 
 	}
 	.overlay {
-		background-color: $background-gray;
-	    opacity: 0.5;
+		background-color: $background-dark;
+	    opacity: 0.3;
 	    z-index: 1;
 	    position:absolute;
 	    top:0;
@@ -22,8 +22,24 @@
 		transform:translate(-50%,-49%);
 		width:calc(100% - 20px);
     	max-width: 650px;
-    	@include media(tablet) {
-    		width: 65%;
-    	}
+	}
+	.laptop-content {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    z-index: 2;
+	    color: $text-light;
+	    transform: translate(-50%, -50%);
+	    max-width: 650px;
+	    width:calc(100% - 20px);
+	    p {
+	    	padding-left:5%; 
+	    }
+	}
+	@include media(tablet) {
+		.laptop { width: 65%; }
+		.laptop-content { width: 65%; 
+			p { padding-left:40px; padding-right:40px; }
+		}
 	}
 }

@@ -1,4 +1,26 @@
 body, a {
 	font-family:$type-body;
 	color:$text-dark;
+	font-size:rem(18);
+}
+body p {
+	line-height:27px;
+}
+.button {
+	width:164px;
+	height:55px;
+	text-transform:uppercase;
+	color:$text-light;
+	display:block;
+	text-align:center;
+	padding: 17px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.orange {
+	background-color:$brand-orange;
+}
+.show-desktop { display:none; }
+@include media(tablet) {
+	.show-desktop { display:block; }
 }

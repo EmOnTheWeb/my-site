@@ -169,8 +169,38 @@ fieldset {
 body, a {
   font-family: "noto_monoregular", open sans, sans-serif;
   color: #333;
+  font-size: 1.125rem;
 }
 
+body p {
+  line-height: 27px;
+}
+
+.button {
+  width: 164px;
+  height: 55px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 17px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.orange {
+  background-color: #d55f30;
+}
+
+.show-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .show-desktop {
+    display: block;
+  }
+}
 nav {
   width: 100%;
   text-align: center;
@@ -194,8 +224,8 @@ nav span {
   max-height: 100vh;
 }
 .background-container .overlay {
-  background-color: #d8d8d8;
-  opacity: 0.5;
+  background-color: #333;
+  opacity: 0.3;
   z-index: 1;
   position: absolute;
   top: 0;
@@ -213,8 +243,29 @@ nav span {
   width: calc(100% - 20px);
   max-width: 650px;
 }
+.background-container .laptop-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 650px;
+  width: calc(100% - 20px);
+}
+.background-container .laptop-content p {
+  padding-left: 5%;
+}
 @media (min-width: 768px) {
   .background-container .laptop {
     width: 65%;
+  }
+  .background-container .laptop-content {
+    width: 65%;
+  }
+  .background-container .laptop-content p {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
