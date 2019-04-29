@@ -156,6 +156,16 @@ fieldset {
 /* --------------------------------------- 
   Pixels to Rems
 --------------------------------------- */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+		BASE MEDIA QUERIES
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* --------------------------------------- 
+  Default Mixins (Mobile First Approach)
+--------------------------------------- */
 body, a {
   font-family: "noto_monoregular", open sans, sans-serif;
   color: #333;
@@ -166,6 +176,7 @@ nav {
   text-align: center;
   padding: 20px 30px;
   position: fixed;
+  z-index: 2;
 }
 nav a {
   font-size: 1rem;
@@ -173,4 +184,14 @@ nav a {
 nav span {
   margin-left: 24px;
   margin-right: 24px;
+}
+
+.overlay {
+  background-color: #333;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+picture img {
+  width: 100%;
 }
