@@ -1,11 +1,17 @@
-.overlay {
-	background-color: $background-dark;
-    opacity: 0.5;
-    z-index: 1;
-}
-picture {
-	img {
+.background-container {
+	position:relative;
+	picture img { 
 		width:100%;
-		max-height:100vh;
-	} 
+		max-height:100vh;	 
+	}
+	.overlay {
+		background-color: $background-gray;
+	    opacity: 0.5;
+	    z-index: 1;
+	    position:absolute;
+	    top:0;
+	    bottom:0;
+	    left:0;
+	    right:0; 
+	}
 }
