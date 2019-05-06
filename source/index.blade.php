@@ -18,11 +18,36 @@
 		</div>
 	</section>
 	<section class="container img-text light-gray">
-		<div class="container-img"></div>
+		<div class="img-wrapper">
+			<img class="container-img" src="../assets/images/port_1280.jpg" />
+		</div>
+		<div class="text">
+			<p>Web development is like shipping containers.</p>
 
+			<p>You make little blocks of functionality and then stack them on top of one another.</p>
+
+		</div>
 	</section>
+	<section class="container light-gray">
+		<div class="container-content">
+			<h2 class="heading">Portfolio -</h2>
+		</div>
+	</section>
+	<section class="container dark">
+		<div class="container-content">
+			<h2 class="heading">Testamonials -</h2>
+			<p>
+				Emilie is a talented full stack developer that we've worked with for several years. She's totally reliable, communicates well and is committed to staying up to date with technology advances and methodology improvements. We recommend her whole-heartedly. 
 
+				<p>Nick Ellison, Managing Director, Purr Group</p> 
+			</p>
+			<p>
+				Emilie is by far the most expedient, professional, and competent contractor I've worked with.
 
+				<p>Kathy Hammond, MedFit Staffing Solutions</p>
+			</p>
+		</div>
+	</section>
 	@include('_partials.footer')
 
 @endsection

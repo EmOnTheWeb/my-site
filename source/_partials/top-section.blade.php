@@ -7,8 +7,7 @@
 	<img class="laptop" src="../assets/images/laptop.png" alt="laptop image">
 	<div class="laptop-content">
 		<p>Hello my name is Emilie<br>
-		<span class="show-desktop">A web developer / designer<br></span>
-		Who makes websites and apps.</p>
+		I make websites and apps</p>
 		<a class="button orange">About
 		</a>
 	</div>

@@ -180,8 +180,13 @@ body p {
 .heading {
   font-size: 32px;
   text-transform: uppercase;
-  margin: 40px auto 20px auto;
+  margin: 20px auto 25px auto;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .heading {
+    margin-top: 40px;
+  }
 }
 
 .orange {
@@ -194,6 +199,11 @@ body p {
 
 .light-gray {
   background-color: #d8d8d8;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
 }
 
 .button {
@@ -272,6 +282,10 @@ nav span {
 }
 .background-container .laptop-content p {
   padding-left: 6%;
+  margin-bottom: 30px;
+}
+.background-container .laptop-content .button {
+  margin-top: 0px;
 }
 @media (min-width: 768px) {
   .background-container .laptop {
@@ -287,25 +301,37 @@ nav span {
 }
 
 .container {
-  width: 100%;
   padding: 20px;
   display: flex;
+  flex-direction: column;
 }
 .container .container-content {
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
 }
 .container.img-text {
-  height: 528px;
+  margin-bottom: 40px;
 }
-.container.img-text .container-img {
-  flex: 66.6%;
-  background-image: url("../../images/port_1280.jpg");
+.container.img-text .img-wrapper {
+  margin: -20px;
+  margin-bottom: 0px;
+}
+.container.img-text .img-wrapper img {
+  max-width: 100%;
+}
+.container.img-text .text p:last-child {
+  margin-bottom: 0px;
 }
 @media (min-width: 768px) {
   .container {
-    padding: 30px;
+    padding: 40px;
   }
   .container .container-content {
     width: 80%;
+    margin-bottom: 40px;
+  }
+  .container .container-img {
+    margin-left: -30px;
+    margin-top: -30px;
+    flex: 0 0 66.6%;
   }
 }
