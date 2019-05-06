@@ -22,7 +22,25 @@
 			}
 		}
 	}
-
+	&.dark {
+		i {
+			color: $brand-orange; 
+			position:absolute;
+			&.fa-quote-left {
+				left:0px;
+			}
+			&.fa-quote-right {
+				right:0px;
+			}
+		}
+		p { position:relative; 
+			text-align:center;
+			span {
+				display:block;
+				margin-top:15px;
+			} 
+		}
+	}
 	@include media(tablet) {
 		padding:40px;
 		.container-content { width:80%; margin-bottom:40px; }

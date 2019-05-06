@@ -29,25 +29,30 @@
 		</div>
 	</section>
 	<section class="container light-gray">
-		<div class="container-content">
-			<h2 class="heading">Portfolio -</h2>
-		</div>
+		<h2 class="heading">Portfolio -</h2>
+	
 	</section>
 	<section class="container dark">
 		<div class="container-content">
 			<h2 class="heading">Testamonials -</h2>
-			<p>
-				Emilie is a talented full stack developer that we've worked with for several years. She's totally reliable, communicates well and is committed to staying up to date with technology advances and methodology improvements. We recommend her whole-heartedly. 
+			<p>	
+				<i class="fa fa-quote-left" aria-hidden="true"></i>
+				&nbsp;Emilie is a talented full stack developer that we've worked with for several years. She's totally reliable, communicates well and is committed to staying up to date with technology advances and methodology improvements. We recommend her whole-heartedly.
+				<i class="fa fa-quote-right" aria-hidden="true"></i> 
 
-				<p>Nick Ellison, Managing Director, Purr Group</p> 
+				<span>Nick Ellison, Managing Director, Purr Group</span> 
 			</p>
 			<p>
+				<i class="fa fa-quote-left" aria-hidden="true"></i>
 				Emilie is by far the most expedient, professional, and competent contractor I've worked with.
+				<i class="fa fa-quote-right" aria-hidden="true"></i>
 
-				<p>Kathy Hammond, MedFit Staffing Solutions</p>
+				<span>Kathy Hammond, MedFit Staffing Solutions</span>
 			</p>
 		</div>
 	</section>
+	@include('_partials.form')
+	
 	@include('_partials.footer')
 
 @endsection

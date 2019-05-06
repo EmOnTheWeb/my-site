@@ -167,10 +167,15 @@ fieldset {
 /* --------------------------------------- 
   Default Mixins (Mobile First Approach)
 --------------------------------------- */
-body, a {
+body, a, input {
   font-family: "noto_monoregular", open sans, sans-serif;
   color: #333;
-  font-size: 1.125rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  body, a, input {
+    font-size: 1.125rem;
+  }
 }
 
 body p {
@@ -216,6 +221,13 @@ body p {
   padding: 17px;
   margin: 0 auto;
   margin-top: 50px;
+}
+
+footer {
+  padding: 15px;
+}
+footer .social-links {
+  float: right;
 }
 
 .show-desktop {
@@ -321,6 +333,24 @@ nav span {
 .container.img-text .text p:last-child {
   margin-bottom: 0px;
 }
+.container.dark i {
+  color: #d55f30;
+  position: absolute;
+}
+.container.dark i.fa-quote-left {
+  left: 0px;
+}
+.container.dark i.fa-quote-right {
+  right: 0px;
+}
+.container.dark p {
+  position: relative;
+  text-align: center;
+}
+.container.dark p span {
+  display: block;
+  margin-top: 15px;
+}
 @media (min-width: 768px) {
   .container {
     padding: 40px;
@@ -334,4 +364,38 @@ nav span {
     margin-top: -30px;
     flex: 0 0 66.6%;
   }
+}
+
+form {
+  margin-top: 40px;
+}
+form .button {
+  margin-left: 0px;
+}
+form p:last-child {
+  display: inline-block;
+  font-size: 0.75rem;
+  float: right;
+  margin-bottom: 0;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+label {
+  margin-bottom: 7px;
+}
+
+input, textarea {
+  width: 100%;
+  border: 2px solid #d55f30;
+}
+
+input {
+  line-height: 2.3;
+}
+
+.field-wrap {
+  margin-bottom: 20px;
 }

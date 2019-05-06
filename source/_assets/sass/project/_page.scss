@@ -1,7 +1,11 @@
-body, a {
+body, a, input {
 	font-family:$type-body;
 	color:$text-dark;
-	font-size:rem(18);
+	font-size:rem(16);
+
+	@include media(tablet) { 
+		font-size:rem(18);
+	}
 }
 body p {
 	line-height:27px;
@@ -44,6 +48,13 @@ body p {
 	padding: 17px;
 	margin:0 auto;
 	margin-top:50px;
+}
+
+footer {
+	padding:15px;
+	.social-links {
+		float:right;
+	}
 }
 
 .show-desktop { display:none; }
