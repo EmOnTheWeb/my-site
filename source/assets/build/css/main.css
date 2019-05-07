@@ -203,7 +203,7 @@ body p {
 }
 
 .light-gray {
-  background-color: #d8d8d8;
+  background-color: #eae9e7;
 }
 
 .dark {
@@ -263,7 +263,7 @@ nav span {
 }
 .background-container .overlay {
   background-color: #333;
-  opacity: 0.3;
+  opacity: 0.1;
   z-index: 1;
   position: absolute;
   top: 0;
