@@ -282,18 +282,18 @@ nav span {
   max-width: 650px;
 }
 .background-container .laptop-content {
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2;
-  color: #fff;
+  color: #333;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   max-width: 650px;
   width: calc(100% - 20px);
 }
 .background-container .laptop-content p {
-  padding-left: 6%;
   margin-bottom: 30px;
 }
 .background-container .laptop-content .button {
@@ -305,10 +305,12 @@ nav span {
   }
   .background-container .laptop-content {
     width: 65%;
+    text-align: left;
   }
   .background-container .laptop-content p {
     padding-left: 40px;
     padding-right: 40px;
+    color: #fff;
   }
 }
 
@@ -319,9 +321,6 @@ nav span {
 }
 .container .container-content {
   margin: 0 auto 20px;
-}
-.container.img-text {
-  margin-bottom: 40px;
 }
 .container.img-text .img-wrapper {
   margin: -20px;
@@ -366,6 +365,26 @@ nav span {
   }
 }
 
+.portfolio-slider img {
+  max-width: 100%;
+}
+.portfolio-slider .portfolio-item {
+  border: 1px solid #eae9e7;
+}
+.portfolio-slider .portfolio-item .portfolio-item__text {
+  padding: 0px 20px 20px;
+}
+.portfolio-slider .portfolio-item .portfolio-item__text p {
+  line-height: 20px;
+}
+.portfolio-slider .portfolio-item .portfolio-item__text .tag {
+  display: inline-block;
+  padding: 7px;
+  background-color: #d29f22;
+  border-radius: 5px;
+  color: #fff;
+}
+
 form {
   margin-top: 40px;
 }
@@ -375,7 +394,6 @@ form .button {
 form p:last-child {
   display: inline-block;
   font-size: 0.75rem;
-  float: right;
   margin-bottom: 0;
 }
 

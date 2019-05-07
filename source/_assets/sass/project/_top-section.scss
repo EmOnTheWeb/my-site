@@ -24,16 +24,16 @@
     	max-width: 650px;
 	}
 	.laptop-content {
+		text-align:center;
 	    position: absolute;
 	    top: 50%;
 	    left: 50%;
 	    z-index: 2;
-	    color: $text-light;
+	    color:$text-dark;
 	    transform: translate(-50%, -50%);
 	    max-width: 650px;
 	    width:calc(100% - 20px);
 	    p {
-	    	padding-left:6%; 
 	    	margin-bottom:30px;
 	    }
 	    .button {
@@ -42,8 +42,9 @@
 	}
 	@include media(tablet) {
 		.laptop { width: 65%; }
-		.laptop-content { width: 65%; 
-			p { padding-left:40px; padding-right:40px; }
+		.laptop-content { width: 65%; text-align:left;
+			p { padding-left:40px; padding-right:40px; 
+			   color: $text-light;}
 		}
 	}
 }

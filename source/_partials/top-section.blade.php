@@ -4,7 +4,7 @@
 	    <img src="../assets/images/background-bridge_mobile.jpg" alt="image of a bridge in New Orleans">
 	    <div class="overlay"></div>
 	</picture>
-	<img class="laptop" src="../assets/images/laptop.png" alt="laptop image">
+	<img class="laptop show-desktop" src="../assets/images/laptop.png" alt="laptop image">
 	<div class="laptop-content">
 		<p>Hello my name is Emilie<br>
 		I make websites and apps</p>

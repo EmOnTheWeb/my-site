@@ -4,53 +4,13 @@
 	@include('_partials.header')
 
 	@include('_partials.top-section')
-	<section class="container">
-		<div class="container-content">
-			<h2 class="heading">About -</h2>
-			<p>
-				I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>
-				Particularly well versed in building large CMS ( e.g Wordpress ) backed websites with custom integrations, and Ionic Framework for mobile apps. <br>
-				But have worked with much more - Codigniter, OpenCart, React Native, SASS etc.<br> 
-				I believe in choosing the tech appropriate to the project. <br>
-				and am a human being with integrity. 
-			</p>
-			<a class="button yellow">Contact</a>
-		</div>
-	</section>
-	<section class="container img-text light-gray">
-		<div class="img-wrapper">
-			<img class="container-img" src="../assets/images/port_1280.jpg" />
-		</div>
-		<div class="text">
-			<p>Web development is like shipping containers.</p>
-
-			<p>You make little blocks of functionality and then stack them on top of one another.</p>
-
-		</div>
-	</section>
-	<section class="container light-gray">
-		<h2 class="heading">Portfolio -</h2>
 	
-	</section>
-	<section class="container dark">
-		<div class="container-content">
-			<h2 class="heading">Testamonials -</h2>
-			<p>	
-				<i class="fa fa-quote-left" aria-hidden="true"></i>
-				&nbsp;Emilie is a talented full stack developer that we've worked with for several years. She's totally reliable, communicates well and is committed to staying up to date with technology advances and methodology improvements. We recommend her whole-heartedly.
-				<i class="fa fa-quote-right" aria-hidden="true"></i> 
+	@include('_partials.content-block-sections')
 
-				<span>Nick Ellison, Managing Director, Purr Group</span> 
-			</p>
-			<p>
-				<i class="fa fa-quote-left" aria-hidden="true"></i>
-				Emilie is by far the most expedient, professional, and competent contractor I've worked with.
-				<i class="fa fa-quote-right" aria-hidden="true"></i>
+	@include('_partials.portfolio-section')
+	
+	@include('_partials.testamonials-section')
 
-				<span>Kathy Hammond, MedFit Staffing Solutions</span>
-			</p>
-		</div>
-	</section>
 	@include('_partials.form')
 	
 	@include('_partials.footer')
