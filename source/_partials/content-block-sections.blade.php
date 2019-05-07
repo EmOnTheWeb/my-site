@@ -8,10 +8,10 @@
 			I believe in choosing the tech appropriate to the project. <br>
 			and am a human being with integrity. 
 		</p>
-		<a class="button yellow">Contact</a>
+		<a class="button orange">Contact</a>
 	</div>
 </section>
-<section class="container img-text light-gray">
+<!-- <section class="container img-text light-gray">
 	<div class="img-wrapper">
 		<img class="container-img" src="../assets/images/port_1280.jpg" />
 	</div>
@@ -21,4 +21,4 @@
 		<p>You make little blocks of functionality and then stack them on top of one another.</p>
 
 	</div>
-</section>
+</section> -->

@@ -19,18 +19,18 @@
 		position:absolute;
 		top:50%;
 		left:50%;
-		transform:translate(-50%,-49%);
-		width:calc(100% - 20px);
+		transform:translate(-50%,-47%);
+		width:calc(100%);
     	max-width: 650px;
 	}
 	.laptop-content {
-		text-align:center;
+		margin-left:10px;
 	    position: absolute;
 	    top: 50%;
 	    left: 50%;
 	    z-index: 2;
-	    color:$text-dark;
-	    transform: translate(-50%, -50%);
+	    color:$text-light;
+	    transform: translate(-50%, -48%);
 	    max-width: 650px;
 	    width:calc(100% - 20px);
 	    p {

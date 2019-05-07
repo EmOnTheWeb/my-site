@@ -276,20 +276,20 @@ nav span {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -49%);
-          transform: translate(-50%, -49%);
-  width: calc(100% - 20px);
+  -webkit-transform: translate(-50%, -47%);
+          transform: translate(-50%, -47%);
+  width: calc(100%);
   max-width: 650px;
 }
 .background-container .laptop-content {
-  text-align: center;
+  margin-left: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2;
-  color: #333;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  color: #fff;
+  -webkit-transform: translate(-50%, -48%);
+          transform: translate(-50%, -48%);
   max-width: 650px;
   width: calc(100% - 20px);
 }
@@ -370,6 +370,10 @@ nav span {
 }
 .portfolio-slider .portfolio-item {
   border: 1px solid #eae9e7;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #fff;
+  color: #333;
 }
 .portfolio-slider .portfolio-item .portfolio-item__text {
   padding: 0px 20px 20px;
@@ -380,9 +384,9 @@ nav span {
 .portfolio-slider .portfolio-item .portfolio-item__text .tag {
   display: inline-block;
   padding: 7px;
-  background-color: #d29f22;
+  border: 1px solid #d55f30;
   border-radius: 5px;
-  color: #fff;
+  color: #d55f30;
 }
 
 form {
