@@ -6,8 +6,8 @@
 	</picture>
 	<img class="laptop" src="../assets/images/laptop.png" alt="laptop image">
 	<div class="laptop-content">
-		<p>Hello my name is Emilie<br>
-		I make websites and apps</p>
+<!-- 		<p>Hello my name is Emilie<br>
+		I make websites and apps</p> -->
 	
 	</div>
 </div>

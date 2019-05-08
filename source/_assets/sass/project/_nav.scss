@@ -1,4 +1,5 @@
 nav {
+	display:none;
 	width:100%;
 	text-align:center;
 	padding:20px 30px;
@@ -10,5 +11,21 @@ nav {
 	span {
 		margin-left:24px;
 		margin-right:24px;
+	}
+	@include media(tablet) {
+		display:block;
+
+	}
+}
+
+.mobile-nav-wrapper {
+	position:fixed;
+	right:0;
+	bottom:0px;
+	z-index:427389429384;
+
+	i {
+		padding:10px;
+		font-size:rem(35);
 	}
 }
