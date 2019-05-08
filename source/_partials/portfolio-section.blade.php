@@ -3,7 +3,7 @@
 
 	<div class="portfolio-slider">
 		<div class="portfolio-item">
-			<a href="https://kotlikoff.net/" target="_blank">
+			<a href="https://kotlikoff.net/">
 			<div class="image" style="background-image:url('../assets/images/portfolio/kotlikoff_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Kotlikoff -</h3>
@@ -15,7 +15,7 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
-			<a href="https://www.strettons.co.uk" target="_blank">
+			<a href="https://www.strettons.co.uk">
 			<div class="image" style="background-image:url('../assets/images/portfolio/strettons_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Strettons -</h3>
@@ -27,7 +27,7 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
-			<a href="http://nsc.emiliedannenberg.com/" target="_blank">
+			<a href="http://nsc.emiliedannenberg.com/">
 			<div class="image" style="background-image:url('../assets/images/portfolio/nsc_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Newcastle Sleep Clinic -</h3>
@@ -39,7 +39,7 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
-			<a href="http://projectmatch.org/" target="_blank">
+			<a href="http://projectmatch.org/">
 			<div class="image" style="background-image:url('../assets/images/portfolio/project_match_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Project Match -</h3>
@@ -51,7 +51,7 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
-			<a href="http://www.happyfaceclicker.com/" target="_blank">
+			<a href="http://www.happyfaceclicker.com/">
 			<div class="image" style="background-image:url('../assets/images/portfolio/face_clicker_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Happy Face Clicker -</h3>
@@ -63,15 +63,15 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
-			<a href="https://itunes.apple.com/us/app/jumpq/id1359695673#?platform=iphone" target="_blank">
+			<a href="https://itunes.apple.com/us/app/jumpq/id1359695673#?platform=iphone">
 			<div class="image" style="background-image:url('../assets/images/portfolio/jumpq_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>JumpQ -</h3>
 				
 				<p>From first line of code to deployment to App store & Google play, built this mobile app for preordering food from a Danish airport. Integrates with a Rails backend. 
 					<div class="badge-wrapper">
-						<a class="app-badge" target="_blank" href='https://play.google.com/store/apps/details?id=com.jumpq.mobile&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='../assets/images/portfolio/google-play-badge.png'/></a>
-						<a class="app-badge" href="https://itunes.apple.com/us/app/jumpq/id1359695673?mt=8" target="_blank">@include('_partials.app-store-badge')</a>
+						<a class="app-badge" href='https://play.google.com/store/apps/details?id=com.jumpq.mobile&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='../assets/images/portfolio/google-play-badge.png'/></a>
+						<a class="app-badge" href="https://itunes.apple.com/us/app/jumpq/id1359695673?mt=8">@include('_partials.app-store-badge')</a>
 					</div>
 				</p>
 				<div class="tag-container"><span class="tag">Mobile Development</span><span class="tag">Ionic 3</span></div>
@@ -79,7 +79,7 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
-			<a href="" target="_blank">
+			<a href="">
 			<div class="image" style="background-image:url('../assets/images/portfolio/walks_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Hidden Walks -</h3>
