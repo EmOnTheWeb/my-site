@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container contact">
 	<div class="container-content">
 		<h2 class="heading">Contact -</h2>
 		<p>

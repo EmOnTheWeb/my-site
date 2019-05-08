@@ -32,4 +32,16 @@ $( document ).ready(function() {
       	$('.mobile-nav').toggleClass('show'); 	
     });
 
+    $('nav a').click(function(e) {
+    	e.preventDefault();
+    	let link_name = $(this).text().toLowerCase(); 
+    	let container = $('.' + link_name); 
+    	let new_top = $(container).offset().top; 
+
+    	$('html, body').animate({
+            scrollTop: new_top  
+        }, 500);
+
+    }); 
+
 });
