@@ -404,8 +404,6 @@ nav span {
 
 .container {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
 .container .container-content {
   margin: 0 auto 20px;
