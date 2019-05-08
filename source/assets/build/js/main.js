@@ -13731,13 +13731,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! slick-carousel */ "./node_modules/slick-carousel/slick/slick.js");
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_1__);
 
- // $( document ).ready(function() {
-// 	$('.portfolio-slider').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3
-// });
-// });
+
+console.log('hi');
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.portfolio-slider').slick({
+    dots: false,
+    arrows: true,
+    swipeToSlide: false,
+    infinite: true,
+    rows: 0
+  });
+});
 
 /***/ }),
 

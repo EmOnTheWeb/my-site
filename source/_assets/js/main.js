@@ -2,14 +2,19 @@ import $ from 'jquery';
 import 'slick-carousel'; 
 
 
-// $( document ).ready(function() {
-// 	$('.portfolio-slider').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3
-// });
-		
-
-// }); 
 
 
+console.log('hi'); 
+
+     $( document ).ready(function() {
+    $('.portfolio-slider').slick({
+
+        dots: false,
+arrows: true,
+swipeToSlide: false,
+infinite: true, rows: 0
+
+});
+        
+
+});
