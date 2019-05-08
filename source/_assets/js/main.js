@@ -22,7 +22,7 @@ $( document ).ready(function() {
 		infinite: true, 
 		adaptiveHeight:true,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 6000,
 
 	});
 
@@ -43,5 +43,16 @@ $( document ).ready(function() {
         }, 500);
 
     }); 
+
+    $(document).scroll(function() {
+
+    	if($(document).scrollTop() > 0) { 	
+    		$('.desktop-nav').addClass('scrolled'); 
+    	}
+    	else {
+    		$('.desktop-nav').removeClass('scrolled'); 
+    	}
+
+    })
 
 });

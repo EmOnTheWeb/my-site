@@ -13749,7 +13749,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     infinite: true,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 5000
+    autoplaySpeed: 6000
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('#toggle-nav').click(function (e) {
     e.preventDefault();
@@ -13764,6 +13764,13 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('html, body').animate({
       scrollTop: new_top
     }, 500);
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).scroll(function () {
+    if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).scrollTop() > 0) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('.desktop-nav').addClass('scrolled');
+    } else {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('.desktop-nav').removeClass('scrolled');
+    }
   });
 });
 

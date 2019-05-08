@@ -327,25 +327,31 @@ footer .social-links {
     display: block;
   }
 }
-nav:not(.mobile-nav) {
+.desktop-nav {
   display: none;
   width: 100%;
   text-align: center;
   padding: 20px 30px;
-  position: fixed;
-  z-index: 2;
+  z-index: 10;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  position: absolute;
 }
-nav:not(.mobile-nav) a {
-  font-size: 1rem;
+.desktop-nav a {
+  font-size: 0.875rem;
 }
-nav:not(.mobile-nav) span {
+.desktop-nav span {
   margin-left: 24px;
   margin-right: 24px;
 }
 @media (min-width: 768px) {
-  nav:not(.mobile-nav) {
+  .desktop-nav {
     display: block;
   }
+}
+.desktop-nav.scrolled {
+  position: fixed;
+  background-color: #fff;
 }
 
 .mobile-nav {

@@ -1,12 +1,14 @@
-nav:not(.mobile-nav) {
+.desktop-nav {
 	display:none;
 	width:100%;
 	text-align:center;
 	padding:20px 30px;
-	position:fixed;
-	z-index:2;
+	z-index:10;
+	transition: all 0.5s ease;
+	background-color: transparent;
+	position:absolute;
 	a {
-		font-size:rem($base);
+		font-size:rem(14);
 	}
 	span {
 		margin-left:24px;
@@ -15,6 +17,10 @@ nav:not(.mobile-nav) {
 	@include media(tablet) {
 		display:block;
 
+	}
+	&.scrolled {
+		position:fixed;
+		background-color: $text-light;
 	}
 }
 .mobile-nav { 

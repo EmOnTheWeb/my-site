@@ -1,5 +1,5 @@
 <header>
-	<nav>
+	<nav class="desktop-nav">
 		<a href="">About</a><span>|</span>
 		<a href="">Portfolio</a><span>|</span>
 		<a href="">Contact</a>
@@ -17,4 +17,4 @@
 	  	<span class="line"></span>
 	  	<span class="line"></span>
 	  	<span class="line"></span>
-  	</button>
+	</button>
