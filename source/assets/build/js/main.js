@@ -13737,13 +13737,19 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     dots: false,
     arrows: true,
     swipeToSlide: true,
-    infinite: true
+    slidesToShow: 1,
+    infinite: true,
+    prevArrow: '<i class="fa fa-caret-left" aria-hidden="true"></i>',
+    nextArrow: '<i class="fa fa-caret-right" aria-hidden="true"></i>'
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.testamonials-slider').slick({
     dots: false,
     arrows: false,
     swipeToSlide: true,
-    infinite: false
+    infinite: true,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 5000
   });
 });
 

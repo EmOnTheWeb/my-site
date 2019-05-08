@@ -451,15 +451,15 @@ nav span {
   }
 }
 
-.portfolio-slider {
-  /*img {
-  	max-width:100%;
-  }*/
+.portfolio-slider .image {
+  width: 100%;
+  height: 205px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .portfolio-slider .portfolio-item {
   border: 1px solid #eae9e7;
-  margin-left: -10px;
-  margin-right: -10px;
   background-color: #fff;
   color: #333;
 }
@@ -475,6 +475,18 @@ nav span {
   border: 1px solid #CB5646;
   border-radius: 5px;
   color: #CB5646;
+}
+.portfolio-slider i {
+  font-size: 2.1875rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-55%);
+          transform: translateY(-55%);
+  z-index: 3;
+  margin-top: -15px;
+}
+.portfolio-slider i.fa-caret-right {
+  right: 0px;
 }
 
 form {

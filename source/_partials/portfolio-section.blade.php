@@ -3,7 +3,7 @@
 
 	<div class="portfolio-slider">
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/kotlikoff_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/kotlikoff_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Kotlikoff -</h3>
 				
@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/strettons_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/strettons_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Strettons -</h3>
 				
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/nsc_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/nsc_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Newcastle Sleep Clinic -</h3>
 				
@@ -33,7 +33,7 @@
 			</div>
 		</div>
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/project_match_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/project_match_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Project Match -</h3>
 				
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/face_clicker_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/face_clicker_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Happy Face Clicker -</h3>
 				
@@ -53,7 +53,7 @@
 			</div>
 		</div>
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/kotlikoff_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/kotlikoff_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>JumpQ -</h3>
 				
@@ -63,7 +63,7 @@
 			</div>
 		</div>
 		<div class="portfolio-item">
-			<img src="../assets/images/portfolio/kotlikoff_img.jpg" />
+			<div class="image" style="background-image:url('../assets/images/portfolio/kotlikoff_img.jpg')"></div>
 			<div class="portfolio-item__text">
 				<h3>Hidden Walks -</h3>
 				
