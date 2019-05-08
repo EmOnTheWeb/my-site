@@ -32,6 +32,21 @@
 			    }
 			}
 		}
+		.app-badge {
+			img {
+				width:120px;
+				margin-left:-5px;
+			
+				display:inline-block;
+				margin-top:-7px;
+			}
+			svg {
+				position: relative;
+			    top: -7px;
+			    left: -17px;
+			    height: 32px;
+			}
+		}
 	}
 	i {
 		font-size: rem(35); 
