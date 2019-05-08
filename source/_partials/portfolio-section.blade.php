@@ -1,4 +1,4 @@
-<section class="container light-gray">
+<!-- <section class="container light-gray"> -->
 	<h2 class="heading">Portfolio -</h2>
 
 	<div class="portfolio-slider">
@@ -74,4 +74,4 @@
 		</div>
 		
 	</div>	
-</section>
+<!-- </section> -->

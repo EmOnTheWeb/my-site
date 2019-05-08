@@ -195,7 +195,7 @@ body p {
 }
 
 .orange {
-  background-color: #d55f30;
+  background-color: #CB5646;
 }
 
 .yellow {
@@ -333,7 +333,7 @@ nav span {
   margin-bottom: 0px;
 }
 .container.dark i {
-  color: #d55f30;
+  color: #CB5646;
   position: absolute;
 }
 .container.dark i.fa-quote-left {
@@ -365,8 +365,10 @@ nav span {
   }
 }
 
-.portfolio-slider img {
-  max-width: 100%;
+.portfolio-slider {
+  /*img {
+  	max-width:100%;
+  }*/
 }
 .portfolio-slider .portfolio-item {
   border: 1px solid #eae9e7;
@@ -384,9 +386,9 @@ nav span {
 .portfolio-slider .portfolio-item .portfolio-item__text .tag {
   display: inline-block;
   padding: 7px;
-  border: 1px solid #d55f30;
+  border: 1px solid #CB5646;
   border-radius: 5px;
-  color: #d55f30;
+  color: #CB5646;
 }
 
 form {
@@ -411,7 +413,7 @@ label {
 
 input, textarea {
   width: 100%;
-  border: 2px solid #d55f30;
+  border: 2px solid #CB5646;
 }
 
 input {
