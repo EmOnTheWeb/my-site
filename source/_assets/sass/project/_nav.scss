@@ -1,4 +1,4 @@
-nav {
+nav:not(.mobile-nav) {
 	display:none;
 	width:100%;
 	text-align:center;
@@ -17,15 +17,31 @@ nav {
 
 	}
 }
-
-.mobile-nav-wrapper {
+.mobile-nav { 
+	position:fixed; 
+	right:0;
+	opacity:0.9;
+	bottom:0px;
+	height:0px; width:0px;
+	z-index:427389429384;
+	width: 100%;
+    background-color: $text-light; 
+    padding:20px;
+	a {
+		display:block;
+		font-size:rem(18);
+		margin-bottom:30px;
+		span {
+			margin-left:24px;
+			margin-right:24px;
+		}
+	}
+}
+.mobile-nav + i {
 	position:fixed;
 	right:0;
 	bottom:0px;
 	z-index:427389429384;
-
-	i {
-		padding:10px;
-		font-size:rem(35);
-	}
+	padding:10px;
+	font-size:rem(35);
 }

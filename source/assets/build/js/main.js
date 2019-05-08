@@ -13751,6 +13751,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 5000
   });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.fa-bars').click(function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.mobile-nav').css("height", "300px");
+  });
 });
 
 /***/ }),

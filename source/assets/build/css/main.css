@@ -327,7 +327,7 @@ footer .social-links {
     display: block;
   }
 }
-nav {
+nav:not(.mobile-nav) {
   display: none;
   width: 100%;
   text-align: center;
@@ -335,26 +335,46 @@ nav {
   position: fixed;
   z-index: 2;
 }
-nav a {
+nav:not(.mobile-nav) a {
   font-size: 1rem;
 }
-nav span {
+nav:not(.mobile-nav) span {
   margin-left: 24px;
   margin-right: 24px;
 }
 @media (min-width: 768px) {
-  nav {
+  nav:not(.mobile-nav) {
     display: block;
   }
 }
 
-.mobile-nav-wrapper {
+.mobile-nav {
+  position: fixed;
+  right: 0;
+  opacity: 0.9;
+  bottom: 0px;
+  height: 0px;
+  width: 0px;
+  z-index: 427389429384;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+.mobile-nav a {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+.mobile-nav a span {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.mobile-nav + i {
   position: fixed;
   right: 0;
   bottom: 0px;
   z-index: 427389429384;
-}
-.mobile-nav-wrapper i {
   padding: 10px;
   font-size: 2.1875rem;
 }

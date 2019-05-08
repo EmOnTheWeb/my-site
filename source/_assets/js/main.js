@@ -25,4 +25,12 @@ $( document ).ready(function() {
 		autoplaySpeed: 5000,
 
 	});
+
+
+ 	$('.fa-bars').click(function() {
+
+ 		$('.mobile-nav').css("height","300px"); 
+
+ 	}); 
+
 });
