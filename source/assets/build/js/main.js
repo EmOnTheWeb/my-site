@@ -13751,8 +13751,10 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 5000
   });
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.fa-bars').click(function () {
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.mobile-nav').css("height", "300px");
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#toggle-nav').click(function (e) {
+    e.preventDefault();
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).toggleClass('open-nav');
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.mobile-nav').toggleClass('show');
   });
 });
 

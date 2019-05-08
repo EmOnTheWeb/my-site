@@ -26,11 +26,10 @@ $( document ).ready(function() {
 
 	});
 
-
- 	$('.fa-bars').click(function() {
-
- 		$('.mobile-nav').css("height","300px"); 
-
- 	}); 
+	$('#toggle-nav').click(function(e) {
+      	e.preventDefault();
+      	$(this).toggleClass('open-nav');
+      	$('.mobile-nav').toggleClass('show'); 	
+    });
 
 });

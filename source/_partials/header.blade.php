@@ -12,4 +12,9 @@
 		<a href="">Portfolio</a>
 		<a href="">Contact</a>
 	</nav>
-	<i class="fa fa-bars"></i>
+	<button id="toggle-nav" class="">
+	  	<span class="line"></span>
+	  	<span class="line"></span>
+	  	<span class="line"></span>
+	  	<span class="line"></span>
+  	</button>
