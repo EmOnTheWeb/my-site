@@ -49,7 +49,7 @@
 			<div class="portfolio-item__text">
 				<h3>Hidden Walks -</h3>
 				
-				<p>Hobby project (no link sorry) A tour guide app that triggers audio based on GPS coordinates. Code is done but need a historian to provide some content.
+				<p>Hobby project. A tour guide app that triggers audio based on GPS coordinates. Code is done but need a historian to provide some content.
 				</p>
 				<div class="tag-container"><span class="tag">Mobile development</span><span class="tag">Ionic 3</span><span class="tag">React Native</span></div>
 			</div>
