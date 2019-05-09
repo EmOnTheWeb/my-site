@@ -2,7 +2,7 @@
 	<div class="container-content">
 		<h2 class="heading">Contact -</h2>
 		<p>
-			Whether you need help hacking away at Wordpress or a bit of custom software, or are a digital agency looking for a freelancer to pick up the slack, send me a message and lets chat about your goals. 
+			Whether you need an app or help hacking away at Wordpress, send me a message and lets chat about your goals. 
 		</p>
 		<form>
 		 	<div class="field-wrap">
@@ -20,7 +20,7 @@
 	 		</div>
 
 	 		<a class="button orange">Send</a>
-	 		<p>se habla español</p>
+	 		<span>se habla español</span>
 		</form>
 	</div>
 </section>
