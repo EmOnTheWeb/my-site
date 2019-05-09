@@ -1,3 +1,6 @@
+html, body {
+	overflow-x:hidden;
+}
 body, a, input {
 	font-family:$type-body;
 	color:$text-dark;

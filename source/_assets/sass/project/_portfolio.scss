@@ -8,13 +8,19 @@
 		background-size:cover;
 		background-repeat:no-repeat;
 		background-position:center center;
+		filter: grayscale(1); 
+			transition: all 0.5s ease;
 	}
 	.portfolio-item {
 
 		border:2px solid $background-gray;
 		background-color:$text-light;
 		color:$text-dark;
-		a { cursor:pointer; }
+		a { cursor:pointer; 
+			&:hover {
+				.image { filter:none; }
+			}
+		}
 		.portfolio-item__text {
 			padding:0px 20px 20px;
 			p { line-height:20px; }

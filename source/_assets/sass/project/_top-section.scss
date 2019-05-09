@@ -1,50 +1,22 @@
 .background-container {
-	position:relative;
-	picture img { 
-		width:100%;
-		max-height:100vh;	 
-	}
-	.overlay {
-		background-color: $background-dark;
-	    opacity: 0.1;
-	    z-index: 1;
-	    position:absolute;
-	    top:0;
-	    bottom:0;
-	    left:0;
-	    right:0; 
-	}
-	.laptop {
-		z-index:2;
-		position:absolute;
-		top:50%;
-		left:50%;
-		transform:translate(-50%,-47%);
-		width:calc(100%);
-    	max-width: 650px;
-	}
-	.laptop-content {
-		margin-left:10px;
-	    position: absolute;
-	    top: 50%;
-	    left: 50%;
-	    z-index: 2;
-	    color:$text-light;
-	    transform: translate(-50%, -48%);
-	    max-width: 650px;
-	    width:calc(100% - 20px);
-	    p {
-	    	margin-bottom:30px;
-	    }
-	    .button {
-	    	margin-top:0px;
-	    }
-	}
+	display:flex;
+	flex-direction:column;
 	@include media(tablet) {
-		.laptop { width: 65%; }
-		.laptop-content { width: 65%; text-align:left;
-			p { padding-left:40px; padding-right:40px; 
-			   color: $text-light;}
+		flex-direction:row;
+
+	}
+
+	picture {
+		width:100%;
+
+		img { 
+			height:100vh;
+			max-height:100vh;	
+			opacity:0.7;
+		}
+		@include media(tablet) {
+			width:70%;
+			img { height:auto; }
 		}
 	}
 }
