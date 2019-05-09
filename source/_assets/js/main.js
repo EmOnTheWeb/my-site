@@ -44,6 +44,24 @@ $( document ).ready(function() {
 
     }); 
 
+    $('.fa-chevron-circle-down').click(function(e) {
+        e.preventDefault();
+        let about_container = $('.about'); 
+        let new_top = $(about_container).offset().top; 
+            $('html, body').animate({
+                scrollTop: new_top  
+            }, 500); 
+    }); 
+
+    $('a.contact').click(function(e) {
+        e.preventDefault();
+        let contact_container = $('section.contact'); 
+        let new_top = $(contact_container).offset().top; 
+            $('html, body').animate({
+                scrollTop: new_top  
+            }, 500); 
+    }); 
+
     $(document).scroll(function() {
 
     	if($(document).scrollTop() > 0) { 	

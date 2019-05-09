@@ -8,7 +8,7 @@
 			I believe in choosing the tech appropriate to the project. <br>
 			and am a human being with integrity. 
 		</p>
-		<a class="button orange">Contact</a>
+		<a class="button orange contact">Contact</a>
 	</div>
 </section>
 <!-- <section class="container img-text light-gray">

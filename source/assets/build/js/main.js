@@ -13765,6 +13765,22 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
       scrollTop: new_top
     }, 500);
   });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.fa-chevron-circle-down').click(function (e) {
+    e.preventDefault();
+    var about_container = jquery__WEBPACK_IMPORTED_MODULE_0___default()('.about');
+    var new_top = jquery__WEBPACK_IMPORTED_MODULE_0___default()(about_container).offset().top;
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('html, body').animate({
+      scrollTop: new_top
+    }, 500);
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('a.contact').click(function (e) {
+    e.preventDefault();
+    var contact_container = jquery__WEBPACK_IMPORTED_MODULE_0___default()('section.contact');
+    var new_top = jquery__WEBPACK_IMPORTED_MODULE_0___default()(contact_container).offset().top;
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('html, body').animate({
+      scrollTop: new_top
+    }, 500);
+  });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).scroll(function () {
     if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).scrollTop() > 0) {
       jquery__WEBPACK_IMPORTED_MODULE_0___default()('.desktop-nav').addClass('scrolled');

@@ -450,6 +450,14 @@ footer .social-links {
 .background-container {
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+.background-container .intro-text {
+  height: 100px;
+  padding: 20px;
+  padding-top: 40px;
+  position: relative;
+  z-index: 2;
 }
 @media (min-width: 768px) {
   .background-container {
@@ -460,7 +468,7 @@ footer .social-links {
   width: 100%;
 }
 .background-container picture img {
-  max-height: 100vh;
+  max-height: calc(100vh - 100px);
   opacity: 0.7;
 }
 @media (orientation: landscape) {
@@ -468,6 +476,7 @@ footer .social-links {
     width: auto;
     height: auto;
     max-height: none;
+    margin-top: -100px;
   }
 }
 @media (min-width: 768px) {
@@ -477,6 +486,15 @@ footer .social-links {
   .background-container picture img {
     height: auto;
   }
+}
+.background-container i {
+  position: absolute;
+  font-size: 45px;
+  margin-top: calc(100vh - 60px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #CB5646;
 }
 
 .container {
