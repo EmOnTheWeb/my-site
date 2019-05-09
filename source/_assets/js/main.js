@@ -7,12 +7,36 @@ $( document ).ready(function() {
         dots: false,
 		arrows: true,
 		swipeToSlide: true,
-		slidesToShow: 1,
+		slidesToShow: 3,
 		infinite: true, 
-		prevArrow:'<i class="fa fa-caret-left" aria-hidden="true"></i>',
-    	nextArrow:'<i class="fa fa-caret-right" aria-hidden="true"></i>'
-
+		prevArrow:'<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>',
+    	nextArrow:'<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>',
+        responsive: [
+                        {
+                            breakpoint: 767,
+                            settings: {
+                                slidesToShow: 1,
+                            }
+                        },
+                        {
+                            breakpoint: 1023,
+                            settings: {
+                                slidesToShow: 2,
+                            }
+                        }
+                    ]
 	});
+    let run_once = false; 
+    $('.portfolio-slider').on('setPosition', function () {
+        if(!run_once) {
+            $(this).find('.slick-slide').height('auto');
+            var slick_track_elem = $(this).find('.slick-track');
+            var slick_track_height = $(slick_track_elem).height();
+            var text_height = slick_track_height - 205; 
+            $(this).find('.portfolio-item__text').css('height',text_height + 'px'); 
+            run_once = true; 
+        }
+    });
 
 	 $('.testamonials-slider').slick({
 

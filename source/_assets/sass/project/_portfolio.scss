@@ -2,6 +2,9 @@
 			margin-left:-10px;
 		margin-right:-10px;
 		margin-bottom:20px;
+
+	.slick-slide { margin: 0 15px; 	border:2px solid $background-gray;}
+	.slick-list { margin: 0 -15px; }
 	.image {
 		width:100%; 
 		height:205px;
@@ -13,12 +16,17 @@
 	}
 	.portfolio-item {
 
-		border:2px solid $background-gray;
+		&.jumpq {
+			cursor:pointer;
+			&:hover {
+				.image { filter:none; transform: scale(1.1); }
+			}
+		}
 		background-color:$text-light;
 		color:$text-dark;
-		a { cursor:pointer; 
+		> a { cursor:pointer; display:block; overflow:hidden;
 			&:hover {
-				.image { filter:none; }
+				.image { filter:none; transform: scale(1.1); }
 			}
 		}
 		.portfolio-item__text {
@@ -61,14 +69,12 @@
 	    margin-top:-45px;
 	    z-index: 3;
 	    color:$brand-orange;
-	    &.fa-caret-left {
-	    	transform:translateX(-50%);
+	    &.fa-chevron-circle-left {
+	    	transform:translateX(-30%);
 	    }	
-	    &.fa-caret-right {
+	    &.fa-chevron-circle-right {
 	    	right:0px;
-	    	transform:translateX(50%);
+	    	transform:translateX(30%);
 	    }
 	}
-
-
 }

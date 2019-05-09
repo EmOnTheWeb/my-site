@@ -20,12 +20,15 @@
 			}
 		}
 	}
-	&.dark {
+	&.testamonials {
+		.container-content { position:relative; }
 		i {
 			color: $brand-orange; 
 			position:absolute;
 			&.fa-quote-left {
-				left:0px;
+				left: 0px;
+    			top: 60px;
+    			font-size: 45px;
 			}
 			&.fa-quote-right {
 				right:0px;
