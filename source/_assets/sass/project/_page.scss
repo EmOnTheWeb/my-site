@@ -60,6 +60,9 @@ footer {
 	}
 }
 
+i { cursor:pointer; }
+.fa-quote-left { cursor:default; }
+
 .show-desktop { display:none; }
 @include media(tablet) {
 	.show-desktop { display:block; }
