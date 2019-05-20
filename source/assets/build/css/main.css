@@ -590,8 +590,14 @@ i {
   margin-top: -20px;
 }
 @media (min-width: 768px) {
+  .container.portfolio {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 768px) {
   .container {
     padding: 40px;
+    padding-bottom: 30px;
   }
   .container .container-content {
     width: 80%;
@@ -602,6 +608,27 @@ i {
     margin-top: -30px;
     flex: 0 0 66.6%;
   }
+}
+
+.about {
+  position: relative;
+}
+.about p {
+  padding-right: 16%;
+}
+
+.self-portrait {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  position: absolute;
+  width: 15%;
+  right: 0px;
+  opacity: 0.5;
+  z-index: -1;
+  top: 50%;
+  right: 40px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .container.portfolio {
@@ -652,6 +679,7 @@ i {
   cursor: pointer;
   display: block;
   overflow: hidden;
+  background-color: #eae9e7;
 }
 .portfolio-slider .portfolio-item > a:hover .image {
   -webkit-filter: none;

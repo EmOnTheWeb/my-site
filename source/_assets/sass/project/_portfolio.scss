@@ -29,7 +29,7 @@
 		}
 		background-color:$text-light;
 		color:$text-dark;
-		> a { cursor:pointer; display:block; overflow:hidden;
+		> a { cursor:pointer; display:block; overflow:hidden; 	background-color:$background-gray;
 			&:hover {
 				.image { filter:none; transform: scale(1.1); }
 			}

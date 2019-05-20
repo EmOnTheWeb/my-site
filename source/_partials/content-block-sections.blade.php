@@ -1,5 +1,6 @@
 <section class="container about">
 	<div class="container-content">
+		<img src="../assets/images/me.jpg" class="self-portrait"></div>
 		<h2 class="heading">About -</h2>
 		<p>
 			I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>
