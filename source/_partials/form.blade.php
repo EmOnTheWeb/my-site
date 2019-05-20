@@ -19,7 +19,7 @@
 				</textarea>
 	 		</div>
 
-	 		<a class="button orange">Send</a>
+	 		<button class="button orange" type="submit">Send</a>
 	 		
 		</form>
 	</div>
