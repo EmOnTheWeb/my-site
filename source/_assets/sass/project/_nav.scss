@@ -48,6 +48,9 @@
 		width:100%;
 	}
 	transition: .3s ease-in-out;
+	@include media(tablet) {
+		display:none;
+	}
 }
 #toggle-nav {
 		bottom:0px;

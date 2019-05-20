@@ -2,18 +2,20 @@ form { margin-top:40px;
 	.button {
 		margin-left:0px;
 	}
-	p:last-child { display:inline-block; font-size:rem(12); margin-bottom:0; }
+	
 }
 label , input, textarea {
 	display:block;
 }
 
 label {
-	margin-bottom:7px;
+	margin-bottom:10px;
 }
 input, textarea {
 	width:100%; 
 	border:2px solid $brand-orange;
+	font-size:rem(16);
+	font-family: $type-body;
 }
 input {
 	line-height:2.3;

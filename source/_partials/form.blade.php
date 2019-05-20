@@ -20,7 +20,7 @@
 	 		</div>
 
 	 		<a class="button orange">Send</a>
-	 		<span>se habla español</span>
+	 		
 		</form>
 	</div>
 </section>

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Emilie - Web Developer</title>
+        <title>Emilie - Web Developer in New Orleans</title>
         <meta name="description" content="Emilie Dannenberg - Web Developer & Designer based in New Orleans">
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">

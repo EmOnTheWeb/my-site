@@ -30,39 +30,6 @@
 			</div>
 			</a>
 		</div>
-		<div class="portfolio-item jumpq">
-			<a href="https://itunes.apple.com/us/app/jumpq/id1359695673#?platform=iphone">
-			<div class="image-wrapper">
-				<div class="image" style="background-image:url('../assets/images/portfolio/jumpq_img.jpg')"></div>
-			</div>
-			<div class="portfolio-item__text">
-				<h3>JumpQ -</h3>
-			
-				<p>From first line of code to deployment to App store & Google play, built this mobile app for preordering food from a Danish airport. Integrates with a Rails backend. 
-					<div class="badge-wrapper">
-						<a class="app-badge" href='https://play.google.com/store/apps/details?id=com.jumpq.mobile&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='../assets/images/portfolio/google-play-badge.png'/></a>
-						<a class="app-badge" href="https://itunes.apple.com/us/app/jumpq/id1359695673?mt=8">@include('_partials.app-store-badge')</a>
-					</div>
-				</p>
-				<div class="tag-container"><span class="tag">Mobile Development</span><span class="tag">Ionic 3</span></div>
-		
-			</div>
-			</a>
-		</div>
-		<div class="portfolio-item">
-			<a href="">
-			<div class="image-wrapper">
-				<div class="image" style="background-image:url('../assets/images/portfolio/walks_img.jpg')"></div>
-			</div>
-			<div class="portfolio-item__text">
-				<h3>Hidden Walks -</h3>
-				
-				<p>Hobby project. A tour guide app that triggers audio based on GPS coordinates. Code is done but need a historian to provide some content.
-				</p>
-				<div class="tag-container"><span class="tag">Mobile development</span><span class="tag">Ionic 3</span><span class="tag">React Native</span></div>
-			</div>
-			</a>
-		</div>
 		<div class="portfolio-item">
 			<a href="http://nsc.emiliedannenberg.com/">
 			<div class="image-wrapper">
@@ -71,7 +38,7 @@
 			<div class="portfolio-item__text">
 				<h3>Newcastle Sleep Clinic -</h3>
 				
-				<p>Waiting on client for content. Designed this website according to client brief (cloud image, clean) after they were fired by their previous web designer. Also built it.
+				<p>Waiting on client for content. Designed this website according to client brief after they were fired by their previous web designer. Also built it.
 				</p>
 				<div class="tag-container"><span class="tag">Design</span><span class="tag">Development</span><span class="tag">Wordpress</span></div>
 			</div>
@@ -105,7 +72,38 @@
 			</div>
 			</a>
 		</div>
+		<div class="portfolio-item jumpq">
+			<a href="https://itunes.apple.com/us/app/jumpq/id1359695673#?platform=iphone">
+			<div class="image-wrapper">
+				<div class="image" style="background-image:url('../assets/images/portfolio/jumpq_img.jpg')"></div>
+			</div>
+			<div class="portfolio-item__text">
+				<h3>JumpQ -</h3>
+			
+				<p>From first line of code to deployment to App store, built this mobile app for preordering food from a Danish airport. Integrates with a Rails backend. 
+					<div class="badge-wrapper">
+						<a class="app-badge" href='https://play.google.com/store/apps/details?id=com.jumpq.mobile&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='../assets/images/portfolio/google-play-badge.png'/></a>
+						<a class="app-badge" href="https://itunes.apple.com/us/app/jumpq/id1359695673?mt=8">@include('_partials.app-store-badge')</a>
+					</div>
+				</p>
+				<div class="tag-container"><span class="tag">Mobile Development</span><span class="tag">Ionic 3</span></div>
 		
-		
+			</div>
+			</a>
+		</div>
+		<div class="portfolio-item">
+			<a href="">
+			<div class="image-wrapper">
+				<div class="image" style="background-image:url('../assets/images/portfolio/walks_img.jpg')"></div>
+			</div>
+			<div class="portfolio-item__text">
+				<h3>Hidden Walks -</h3>
+				
+				<p>Hobby project. A tour guide app that triggers audio based on GPS coordinates. Code is done but need a historian to provide some content.
+				</p>
+				<div class="tag-container"><span class="tag">Mobile development</span><span class="tag">Ionic 3</span><span class="tag">React Native</span></div>
+			</div>
+			</a>
+		</div>	
 	</div>	
 </section>

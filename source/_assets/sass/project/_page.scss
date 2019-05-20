@@ -53,12 +53,18 @@ body p {
 	cursor:pointer;
 }
 
-footer {
+footer, .espanol {
 	font-size:rem(14);
 	padding:15px;
 	.social-links {
+
 		float:right;
+		position:relative; bottom:5px;
+		a {		font-size:rem(24); margin-left:10px;}
 	}
+}
+.espanol {
+	display:block;
 }
 
 i { cursor:pointer; }

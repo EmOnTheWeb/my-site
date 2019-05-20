@@ -316,12 +316,22 @@ body p {
   cursor: pointer;
 }
 
-footer {
+footer, .espanol {
   font-size: 0.875rem;
   padding: 15px;
 }
-footer .social-links {
+footer .social-links, .espanol .social-links {
   float: right;
+  position: relative;
+  bottom: 5px;
+}
+footer .social-links a, .espanol .social-links a {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.espanol {
+  display: block;
 }
 
 i {
@@ -394,6 +404,11 @@ i {
   padding-top: 40px;
   height: 300px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
 }
 
 #toggle-nav {
@@ -589,6 +604,10 @@ i {
   }
 }
 
+.container.portfolio {
+  padding-bottom: 0px;
+}
+
 .portfolio h2 {
   margin-bottom: 40px;
 }
@@ -701,23 +720,20 @@ form {
 form .button {
   margin-left: 0px;
 }
-form p:last-child {
-  display: inline-block;
-  font-size: 0.75rem;
-  margin-bottom: 0;
-}
 
 label, input, textarea {
   display: block;
 }
 
 label {
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 input, textarea {
   width: 100%;
   border: 2px solid #CB5646;
+  font-size: 1rem;
+  font-family: "noto_monoregular", open sans, sans-serif;
 }
 
 input {
