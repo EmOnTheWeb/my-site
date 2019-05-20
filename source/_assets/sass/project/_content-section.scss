@@ -48,11 +48,9 @@
 		}
 	}
 	&.portfolio {
-		padding-top:0px;
-		margin-top:-20px;
-		@include media(tablet) {
-			padding-top:40px;
-		}
+	
+	/*	margin-top:-20px;*/
+		
 	}
 	@include media(tablet) {
 		padding:40px;
@@ -65,15 +63,22 @@
 		}
 	}
 }
-.about { position:relative; p { padding-right:16%; }}
 .self-portrait {
-	filter: grayscale(1); 
-	position:absolute;
-	width:15%;
-	right:0px;
+	filter: grayscale(1);
+	width:40%;
 	opacity:0.5;
+	margin:0 auto;
+	display:block;
+}
+@include media(tablet) {
+.about { position:relative; p { padding-right:19%; }}
+.self-portrait {
+	position:absolute;
+	width:18%;
+	right:0px;	
 	z-index:-1;
 	top:50%;  
 	right:40px;
 	transform:translateY(-50%);
+}
 }
