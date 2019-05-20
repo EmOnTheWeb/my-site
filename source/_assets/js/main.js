@@ -64,7 +64,7 @@ $( document ).ready(function() {
 
     	$('html, body').animate({
             scrollTop: new_top  
-        }, 500);
+        }, 500, function() { $('.mobile-nav').toggleClass('show'); });
 
     }); 
 
