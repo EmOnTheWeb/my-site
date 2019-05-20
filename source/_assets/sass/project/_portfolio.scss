@@ -1,9 +1,9 @@
+.portfolio h2 { margin-bottom:40px; }
 .portfolio-slider {
-			margin-left:-10px;
-		margin-right:-10px;
+
 		margin-bottom:20px;
 
-	.slick-slide { margin: 0 15px; 	border:2px solid $background-gray;}
+	.slick-slide { margin: 0px 15px; }
 	.slick-list { margin: 0 -15px; }
 	.image {
 		width:100%; 
@@ -13,6 +13,10 @@
 		background-position:center center;
 		filter: grayscale(1); 
 			transition: all 0.5s ease;
+	}
+	.image-wrapper {
+		height:205px;
+		overflow:hidden;
 	}
 	.portfolio-item {
 
@@ -31,6 +35,7 @@
 		}
 		.portfolio-item__text {
 			padding:0px 20px 10px;
+			font-size:rem(16);
 			p { line-height:20px; }
 			.tag-container { margin-bottom:-10px; }
 			.tag {
@@ -44,6 +49,9 @@
 			    &:last-child {
 			    	margin-right:0px;
 			    }
+			}
+			> a {
+				font-size:rem(16);
 			}
 		}
 		.app-badge {
@@ -70,11 +78,11 @@
 	    z-index: 3;
 	    color:$brand-orange;
 	    &.fa-chevron-circle-left {
-	    	transform:translateX(-30%);
+	    	transform:translateX(-50%);
 	    }	
 	    &.fa-chevron-circle-right {
 	    	right:0px;
-	    	transform:translateX(30%);
+	    	transform:translateX(50%);
 	    }
 	}
 }

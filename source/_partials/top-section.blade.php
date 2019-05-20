@@ -1,6 +1,6 @@
 <div class="background-container">
 	<div class="intro-text">
-		Hello I'm Emilie a full stack <br>web developer / designer
+		Hello I'm Emilie <br>a full stack web developer<br> & designer
 	</div>
 	<picture>
 	    <source media="(min-width: 768px)" srcset="../assets/images/port-bw_1280.jpg" />
