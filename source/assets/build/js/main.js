@@ -13786,7 +13786,8 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('html, body').animate({
       scrollTop: new_top
     }, 500, function () {
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()('.mobile-nav').toggleClass('show');
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#toggle-nav').removeClass('open-nav');
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('.mobile-nav').removeClass('show');
     });
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('.fa-chevron-circle-down').click(function (e) {
