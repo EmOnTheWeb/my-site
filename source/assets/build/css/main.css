@@ -621,6 +621,16 @@ i {
   width: 40%;
   opacity: 0.5;
   margin: 0 auto;
+  display: none;
+}
+
+.self-portrait--mobile {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
   display: block;
 }
 
@@ -633,6 +643,7 @@ i {
   }
 
   .self-portrait {
+    display: block;
     position: absolute;
     width: 18%;
     right: 0px;
@@ -641,6 +652,10 @@ i {
     right: 40px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
+  }
+
+  .self-portrait--mobile {
+    display: none;
   }
 }
 .container.portfolio {
@@ -680,6 +695,7 @@ i {
 }
 .portfolio-slider .portfolio-item.jumpq {
   cursor: pointer;
+  background-color: #eae9e7;
 }
 .portfolio-slider .portfolio-item.jumpq:hover .image {
   -webkit-filter: none;

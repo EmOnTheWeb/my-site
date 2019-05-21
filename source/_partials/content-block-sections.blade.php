@@ -2,6 +2,7 @@
 	<div class="container-content">
 		
 		<h2 class="heading">About -</h2>
+		<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile"></div>
 		<img src="../assets/images/me.jpg" class="self-portrait"></div>
 		<p>
 			I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>

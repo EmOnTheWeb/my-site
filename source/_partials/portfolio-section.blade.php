@@ -16,20 +16,7 @@
 			</div>
 			</a>
 		</div>
-		<div class="portfolio-item">
-			<a href="https://www.strettons.co.uk">
-			<div class="image-wrapper">
-				<div class="image" style="background-image:url('../assets/images/portfolio/strettons_img.jpg')"></div>
-			</div>
-			<div class="portfolio-item__text">
-				<h3>Strettons -</h3>
-				
-				<p>Backend developer for this real estate website. Integrates with 3rd party software through APIs / JSON feeds to show property listings. 
-				</p>
-				<div class="tag-container"><span class="tag">Backend CMS</span><span class="tag">Silverstripe</span></div>
-			</div>
-			</a>
-		</div>
+	
 		<div class="portfolio-item">
 			<a href="http://nsc.emiliedannenberg.com/">
 			<div class="image-wrapper">
@@ -41,34 +28,6 @@
 				<p>Waiting on client for content. Designed this website according to client brief after they were fired by their previous web designer. Also built it.
 				</p>
 				<div class="tag-container"><span class="tag">Design</span><span class="tag">Development</span><span class="tag">Wordpress</span></div>
-			</div>
-			</a>
-		</div>
-		<div class="portfolio-item">
-			<a href="http://projectmatch.org/">
-			<div class="image-wrapper">
-				<div class="image" style="background-image:url('../assets/images/portfolio/project_match_img.jpg')"></div>
-			</div>
-			<div class="portfolio-item__text">
-				<h3>Project Match -</h3>
-				
-				<p>Extended existing codebase and added new features to this web app that matches trainees to researchers in the medical field.
-				</p>
-				<div class="tag-container"><span class="tag">MVC</span><span class="tag">Codeigniter</span></div>
-			</div>
-			</a>
-		</div>
-		<div class="portfolio-item">
-			<a href="http://www.happyfaceclicker.com/">
-			<div class="image-wrapper">
-				<div class="image" style="background-image:url('../assets/images/portfolio/face_clicker_img.jpg')"></div>
-			</div>
-			<div class="portfolio-item__text">
-				<h3>Happy Face Clicker -</h3>
-				
-				<p>Inspired by the BBC documentary 'Rainy Brain Sunny Brain' built a web version of this positivity game where you click on the happy face. 
-				</p>
-				<div class="tag-container"><span class="tag">MVC</span><span class="tag">Express</span><span class="tag">MEAN Stack</span></div>
 			</div>
 			</a>
 		</div>
@@ -92,6 +51,48 @@
 			</a>
 		</div>
 		<div class="portfolio-item">
+			<a href="http://projectmatch.org/">
+			<div class="image-wrapper">
+				<div class="image" style="background-image:url('../assets/images/portfolio/project_match_img.jpg')"></div>
+			</div>
+			<div class="portfolio-item__text">
+				<h3>Project Match -</h3>
+				
+				<p>Extended existing codebase and added new features to this web app that matches trainees to researchers in the medical field.
+				</p>
+				<div class="tag-container"><span class="tag">MVC</span><span class="tag">Codeigniter</span></div>
+			</div>
+			</a>
+		</div>
+		<div class="portfolio-item">
+			<a href="https://www.strettons.co.uk">
+			<div class="image-wrapper">
+				<div class="image" style="background-image:url('../assets/images/portfolio/strettons_img.jpg')"></div>
+			</div>
+			<div class="portfolio-item__text">
+				<h3>Strettons -</h3>
+				
+				<p>Backend developer for this real estate website. Integrates with 3rd party software through APIs / JSON feeds to show property listings. 
+				</p>
+				<div class="tag-container"><span class="tag">Backend CMS</span><span class="tag">Silverstripe</span></div>
+			</div>
+			</a>
+		</div>
+		<div class="portfolio-item">
+			<a href="http://www.happyfaceclicker.com/">
+			<div class="image-wrapper">
+				<div class="image" style="background-image:url('../assets/images/portfolio/face_clicker_img.jpg')"></div>
+			</div>
+			<div class="portfolio-item__text">
+				<h3>Happy Face Clicker -</h3>
+				
+				<p>Inspired by the BBC documentary 'Rainy Brain Sunny Brain' built a web version of this positivity game where you click on the happy face. 
+				</p>
+				<div class="tag-container"><span class="tag">MVC</span><span class="tag">Express</span><span class="tag">MEAN Stack</span></div>
+			</div>
+			</a>
+		</div>
+		<div class="portfolio-item">
 			<a href="">
 			<div class="image-wrapper">
 				<div class="image" style="background-image:url('../assets/images/portfolio/walks_img.jpg')"></div>
@@ -99,7 +100,7 @@
 			<div class="portfolio-item__text">
 				<h3>Hidden Walks -</h3>
 				
-				<p>Hobby project. A tour guide app that triggers audio based on GPS coordinates. Code is done but need a historian to provide some content.
+				<p>A tour guide app that triggers audio based on GPS coordinates. Code is done but need a historian to provide some content.
 				</p>
 				<div class="tag-container"><span class="tag">Mobile development</span><span class="tag">Ionic 3</span><span class="tag">React Native</span></div>
 			</div>

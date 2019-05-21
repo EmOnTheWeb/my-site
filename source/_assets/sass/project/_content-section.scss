@@ -68,17 +68,29 @@
 	width:40%;
 	opacity:0.5;
 	margin:0 auto;
+	display:none;
+}
+.self-portrait--mobile {
+	filter: grayscale(1);
+	width:200px;
+	height:200px;
+	border-radius:50%; 
+	margin:0 auto; 
 	display:block;
 }
 @include media(tablet) {
 .about { position:relative; p { padding-right:20%; }}
-.self-portrait {
-	position:absolute;
-	width:18%;
-	right:0px;	
-	z-index:-1;
-	top:50%;  
-	right:40px;
-	transform:translateY(-50%);
-}
+	.self-portrait {
+		display:block;
+		position:absolute;
+		width:18%;
+		right:0px;	
+		z-index:-1;
+		top:50%;  
+		right:40px;
+		transform:translateY(-50%);
+	}
+	.self-portrait--mobile {
+		display:none;
+	}
 }
