@@ -4,7 +4,7 @@
 		<p>
 			Whether you need an app or help hacking away at Wordpress, send me a message and lets chat about your goals. 
 		</p>
-		<form name="contact" method="POST" data-netlify="true">
+		<form name="contact" action="/email.php" method="POST">
 		 	<div class="field-wrap">
 		 		<label for="name">Name</label>
 		 		<input id="name" class="" name="name" type="text" required />

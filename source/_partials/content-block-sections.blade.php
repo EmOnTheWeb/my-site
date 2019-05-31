@@ -2,15 +2,19 @@
 	<div class="container-content">
 		
 		<h2 class="heading">About -</h2>
-		<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile"></div>
-		<img src="../assets/images/me.jpg" class="self-portrait"></div>
-		<p>
-			I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>
-			Particularly well versed in building large CMS ( e.g Wordpress ) backed websites with custom integrations, and Ionic Framework for mobile apps. <br>
-			But have worked with much more - Codigniter, OpenCart, React Native, SASS etc.<br> 
-			I believe in choosing the tech appropriate to the project. <br>
-			and am a human being with integrity. 
-		</p>
+		<div class="content-wrapper">
+			<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile-2"/>
+	<!-- 	<img src="../assets/images/me.jpg" class="self-portrait"></div> -->
+			<p>
+				I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>
+				Particularly well versed in building large CMS ( e.g Wordpress ) backed websites with custom integrations, and Ionic Framework for mobile apps. <br>
+				But have worked with much more - Codigniter, OpenCart, React Native, SASS etc.<br> 
+				I believe in choosing the tech appropriate to the project. <br>
+				and am a human being with integrity. 
+			</p>
+			<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile"/>
+
+		</div>
 		<a class="button orange contact">Contact</a>
 	</div>
 </section>
