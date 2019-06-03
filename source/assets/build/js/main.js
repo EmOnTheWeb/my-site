@@ -13813,6 +13813,19 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
       jquery__WEBPACK_IMPORTED_MODULE_0___default()('.desktop-nav').removeClass('scrolled');
     }
   });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#contact").submit(function (evt) {
+    evt.preventDefault();
+    var data = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).serialize();
+    jquery__WEBPACK_IMPORTED_MODULE_0___default.a.ajax({
+      type: "POST",
+      contentType: "application/json; charset=utf-8",
+      url: "send.php",
+      data: data,
+      success: function success(result) {
+        console.log(result);
+      }
+    });
+  });
 });
 
 /***/ }),

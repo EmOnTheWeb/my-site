@@ -95,6 +95,23 @@ $( document ).ready(function() {
     		$('.desktop-nav').removeClass('scrolled'); 
     	}
 
-    })
+    }); 
+
+    $("#contact").submit(function(evt) {
+        
+        evt.preventDefault(); 
+        let data = $(this).serialize(); 
+ 
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: "send.php",
+            data: data,
+            success: function (result) {
+                console.log(result); 
+            }
+         });
+
+    }); 
 
 });
