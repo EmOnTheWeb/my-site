@@ -7,8 +7,8 @@
         <title>Emilie - Web Developer in New Orleans</title>
         <meta name="description" content="Emilie Dannenberg - Web Developer & Designer based in New Orleans">
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=d500c4f0a808fe1f53c9">
-        <script src="/assets/build/js/main.js?id=1adf77a77b210c4d7199"></script>
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=a8c2d8eac72011e89194">
+        <script src="/assets/build/js/main.js?id=5950e8fc7724f4c5bcc1"></script>
         <script src="https://use.fontawesome.com/aed19af848.js"></script>
 
     </head>
@@ -50,15 +50,19 @@
 	<div class="container-content">
 		
 		<h2 class="heading">About -</h2>
-		<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile"></div>
-		<img src="../assets/images/me.jpg" class="self-portrait"></div>
-		<p>
-			I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>
-			Particularly well versed in building large CMS ( e.g Wordpress ) backed websites with custom integrations, and Ionic Framework for mobile apps. <br>
-			But have worked with much more - Codigniter, OpenCart, React Native, SASS etc.<br> 
-			I believe in choosing the tech appropriate to the project. <br>
-			and am a human being with integrity. 
-		</p>
+		<div class="content-wrapper">
+			<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile-2"/>
+	<!-- 	<img src="../assets/images/me.jpg" class="self-portrait"></div> -->
+			<p>
+				I'm a full stack web developer who does PHP and Javascript and dabbles in design.<br>
+				Particularly well versed in building large CMS ( e.g Wordpress ) backed websites with custom integrations, and Ionic Framework for mobile apps. <br>
+				But have worked with much more - Codigniter, OpenCart, React Native, SASS etc.<br> 
+				I believe in choosing the tech appropriate to the project. <br>
+				and am a human being with integrity. 
+			</p>
+			<img src="../assets/images/me_mobile.jpg" class="self-portrait--mobile"/>
+
+		</div>
 		<a class="button orange contact">Contact</a>
 	</div>
 </section>
@@ -263,7 +267,7 @@
 		<p>
 			Whether you need an app or help hacking away at Wordpress, send me a message and lets chat about your goals. 
 		</p>
-		<form name="contact" method="POST" data-netlify="true">
+		<form name="contact" action="/email.php" method="POST">
 		 	<div class="field-wrap">
 		 		<label for="name">Name</label>
 		 		<input id="name" class="" name="name" type="text" required />

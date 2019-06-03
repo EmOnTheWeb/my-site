@@ -13781,7 +13781,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('nav a').click(function (e) {
     e.preventDefault();
     var link_name = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).text().toLowerCase();
-    var container = jquery__WEBPACK_IMPORTED_MODULE_0___default()('.' + link_name);
+    var container = jquery__WEBPACK_IMPORTED_MODULE_0___default()('section.' + link_name);
     var new_top = jquery__WEBPACK_IMPORTED_MODULE_0___default()(container).offset().top;
     jquery__WEBPACK_IMPORTED_MODULE_0___default()('html, body').animate({
       scrollTop: new_top

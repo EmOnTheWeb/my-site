@@ -59,7 +59,7 @@ $( document ).ready(function() {
     $('nav a').click(function(e) {
     	e.preventDefault();
     	let link_name = $(this).text().toLowerCase(); 
-    	let container = $('.' + link_name); 
+    	let container = $('section.' + link_name); 
     	let new_top = $(container).offset().top; 
 
     	$('html, body').animate({
